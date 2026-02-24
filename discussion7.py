@@ -1,4 +1,4 @@
-import unittest
+import 
 import os
 import csv
 
@@ -118,7 +118,7 @@ def write_summary_csv(out_filename, avg_prices):
             'neighbourhood_group': neighbourhood_group,
             'room_type': room_type,
             'average_price': avg_price
-            
+
             })
     pass
 
